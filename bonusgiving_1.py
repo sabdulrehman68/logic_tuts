@@ -56,8 +56,7 @@ if __name__ == "__main__":
         employeeList.append(Employee(employeeName, designation,salary, overtimeDict,overTimeStatus=False))    
     
     newOrg = Organization(employeeList)
-
-  
+ 
     overtimeThreshold = int(input())
 
     isEligible = newOrg.elegible(overtimeThreshold)
